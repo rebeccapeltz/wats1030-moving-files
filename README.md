@@ -28,7 +28,25 @@ Now that you have Git installed on your Droplet, you must configure Github to al
 
 1. Follow the Github Guide to [Generating SSH Keys (Linux)](https://help.github.com/articles/generating-ssh-keys/#platform-linux) to generate an SSH key for your Droplet and add it to your Github profile.
 2. Now that you have added the SSH Key to your Github profile, fork the [WATS1030 Moving Files](https://github.com/suwebdev/wats1030-moving-files/) source repository into your personal Github account.
-3. Verify that you have been successful by copying the SSH Clone URL from your repository homepage and cloning the repository using command-line Git: `git clone <SSH ClONE URL>`
+3. Verify that you have been successful by copying the SSH Clone URL from your repository homepage and cloning the repository using command-line Git: `git clone <SSH ClONE URL>`  
+*root@ubuntu-s-1vcpu-1gb-sfo2-01:~# git clone git@github.com:rebeccapeltz/wats1030-moving-files.git
+Cloning into 'wats1030-moving-files'...
+The authenticity of host 'github.com (192.30.255.112)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.255.112' (RSA) to the list of known hosts.
+remote: Counting objects: 122, done.
+remote: Total 122 (delta 0), reused 0 (delta 0), pack-reused 122
+Receiving objects: 100% (122/122), 81.51 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (10/10), done.
+Checking connectivity... done.
+root@ubuntu-s-1vcpu-1gb-sfo2-01:~# git status
+fatal: Not a git repository (or any of the parent directories): .git
+root@ubuntu-s-1vcpu-1gb-sfo2-01:~# ls
+wats1030-moving-files
+root@ubuntu-s-1vcpu-1gb-sfo2-01:~# cd wats1030-moving-files/
+root@ubuntu-s-1vcpu-1gb-sfo2-01:~/wats1030-moving-files# git status
+On branch master*
   * Please note: You should be in your home directory (`cd ~`) when you do this.
 4. Change directory into the repository root directory.
 
