@@ -46,7 +46,8 @@ root@ubuntu-s-1vcpu-1gb-sfo2-01:~# ls
 wats1030-moving-files
 root@ubuntu-s-1vcpu-1gb-sfo2-01:~# cd wats1030-moving-files/
 root@ubuntu-s-1vcpu-1gb-sfo2-01:~/wats1030-moving-files# git status
-On branch master*
+On branch master*  
+
   * Please note: You should be in your home directory (`cd ~`) when you do this.
 4. Change directory into the repository root directory.
 
